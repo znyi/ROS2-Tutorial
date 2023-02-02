@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_srvcli
+[0.059s] -- The C compiler identification is GNU 9.4.0
+[0.103s] -- The CXX compiler identification is GNU 9.4.0
+[0.108s] -- Check for working C compiler: /usr/bin/cc
+[0.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.172s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.242s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.308s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.411s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.411s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.534s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.637s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.665s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.753s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.753s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.754s] -- Looking for pthread.h
+[0.812s] -- Looking for pthread.h - found
+[0.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.878s] -- Looking for pthread_create in pthreads
+[0.928s] -- Looking for pthread_create in pthreads - not found
+[0.928s] -- Looking for pthread_create in pthread
+[0.987s] -- Looking for pthread_create in pthread - found
+[0.988s] -- Found Threads: TRUE  
+[1.083s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.150s] CMake Error at CMakeLists.txt:32 (install):
+[1.150s]   install does not recognize sub-command TARGET
+[1.150s] 
+[1.150s] 
+[1.191s] -- Configuring incomplete, errors occurred!
+[1.191s] See also "/home/malacoda/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+[1.191s] See also "/home/malacoda/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".
+[1.198s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_srvcli

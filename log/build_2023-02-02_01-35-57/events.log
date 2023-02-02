@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000315] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000488] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000520] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000565] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001042] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001127] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001173] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.007772] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.008681] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.008748] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malacoda/ros2_ws/build/more_interfaces', '--', '-j32', '-l32'], 'cwd': '/home/malacoda/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malacoda'), ('SSH_CLIENT', '192.168.0.60 64219 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:/home/malacoda/ros2_ws/install/turtlesim/lib:/home/malacoda/ros2_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/malacoda'), ('OLDPWD', '/home/malacoda'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-edb582ee-7250-45d1-ac16-9e2ba233aab7.sock'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/malacoda/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'malacoda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '550'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-f772902bb8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/malacoda/ros2_ws/install/cpp_srvcli:/home/malacoda/ros2_ws/install/cpp_pubsub:/home/malacoda/ros2_ws/install/tutorial_interfaces:/home/malacoda/ros2_ws/install/turtlesim:/home/malacoda/ros2_ws/install/more_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/malacoda/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.60 64219 192.168.0.17 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/malacoda/ros2_ws/install/cpp_srvcli:/home/malacoda/ros2_ws/install/cpp_pubsub:/home/malacoda/ros2_ws/install/tutorial_interfaces:/home/malacoda/ros2_ws/install/turtlesim:/home/malacoda/ros2_ws/install/more_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.035458] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.053304] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099745] (-) TimerEvent: {}
+[0.165300] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.167519] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.170912] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199840] (-) TimerEvent: {}
+[0.280975] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300043] (more_interfaces) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (find_package):\n'}
+[0.300143] (-) TimerEvent: {}
+[0.300205] (more_interfaces) StderrLine: {'line': b'  By not providing "Findrosidl_tutorials_msgs.cmake" in CMAKE_MODULE_PATH\n'}
+[0.300266] (more_interfaces) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.300341] (more_interfaces) StderrLine: {'line': b'  by "rosidl_tutorials_msgs", but CMake did not find one.\n'}
+[0.300392] (more_interfaces) StderrLine: {'line': b'\n'}
+[0.300439] (more_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.300485] (more_interfaces) StderrLine: {'line': b'  "rosidl_tutorials_msgs" with any of the following names:\n'}
+[0.300530] (more_interfaces) StderrLine: {'line': b'\n'}
+[0.300573] (more_interfaces) StderrLine: {'line': b'    rosidl_tutorials_msgsConfig.cmake\n'}
+[0.300622] (more_interfaces) StderrLine: {'line': b'    rosidl_tutorials_msgs-config.cmake\n'}
+[0.300667] (more_interfaces) StderrLine: {'line': b'\n'}
+[0.300712] (more_interfaces) StderrLine: {'line': b'  Add the installation prefix of "rosidl_tutorials_msgs" to CMAKE_PREFIX_PATH\n'}
+[0.300758] (more_interfaces) StderrLine: {'line': b'  or set "rosidl_tutorials_msgs_DIR" to a directory containing one of the\n'}
+[0.300804] (more_interfaces) StderrLine: {'line': b'  above files.  If "rosidl_tutorials_msgs" provides a separate development\n'}
+[0.300850] (more_interfaces) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[0.300895] (more_interfaces) StderrLine: {'line': b'\n'}
+[0.300941] (more_interfaces) StderrLine: {'line': b'\n'}
+[0.300987] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.301034] (more_interfaces) StdoutLine: {'line': b'See also "/home/malacoda/ros2_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.301082] (more_interfaces) StdoutLine: {'line': b'See also "/home/malacoda/ros2_ws/build/more_interfaces/CMakeFiles/CMakeError.log".\n'}
+[0.302746] (more_interfaces) StderrLine: {'line': b'make: *** [Makefile:792: cmake_check_build_system] Error 1\n'}
+[0.304373] (more_interfaces) CommandEnded: {'returncode': 2}
+[0.370160] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[0.380463] (-) EventReactorShutdown: {}

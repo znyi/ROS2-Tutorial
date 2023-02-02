@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000345] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000455] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000606] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000650] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000692] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001168] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.006884] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.007366] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/malacoda/ros2_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/tutorial_interfaces'], 'cwd': '/home/malacoda/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malacoda'), ('SSH_CLIENT', '192.168.0.60 64805 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/malacoda'), ('OLDPWD', '/home/malacoda/ros2_ws/src/tutorial_interfaces'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-794467d8-22b4-4e7a-aa72-9995942ed562.sock'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'malacoda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '507'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-f772902bb8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/malacoda/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.60 64805 192.168.0.17 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.024283] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.043351] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.043502] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099823] (-) TimerEvent: {}
+[0.151935] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.165426] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167283] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199908] (-) TimerEvent: {}
+[0.266185] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300007] (-) TimerEvent: {}
+[0.313428] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.338688] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.400082] (-) TimerEvent: {}
+[0.443613] (tutorial_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.443795] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.443909] (tutorial_interfaces) StderrLine: {'line': b'  tutorial_interfaces --arguments-file\n'}
+[0.444001] (tutorial_interfaces) StderrLine: {'line': b'  /home/malacoda/ros2_ws/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json\n'}
+[0.444086] (tutorial_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.444167] (tutorial_interfaces) StderrLine: {'line': b'  /home/malacoda/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces\n'}
+[0.444299] (tutorial_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.444393] (tutorial_interfaces) StderrLine: {'line': b'  /home/malacoda/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)\n'}
+[0.444472] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.444550] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.444628] (tutorial_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.444705] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.444782] (tutorial_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.444861] (tutorial_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.444939] (tutorial_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.445018] (tutorial_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.445097] (tutorial_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.445176] (tutorial_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.445252] (tutorial_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.445328] (tutorial_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.445403] (tutorial_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.445479] (tutorial_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.445564] (tutorial_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[0.445639] (tutorial_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[0.445715] (tutorial_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[0.445790] (tutorial_interfaces) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[0.445866] (tutorial_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[0.445942] (tutorial_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.446020] (tutorial_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 402, in __init__\n'}
+[0.446095] (tutorial_interfaces) StderrLine: {'line': b'      raise ValueError(\n'}
+[0.446170] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.446246] (tutorial_interfaces) StderrLine: {'line': b'  ValueError: the fields iterable contains duplicate names: a\n'}
+[0.446321] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.446394] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.446469] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.446542] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[0.446616] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.446689] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.446762] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.446842] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/malacoda/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.449500] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[0.473082] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[0.483568] (-) EventReactorShutdown: {}

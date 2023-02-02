@@ -1,0 +1,201 @@
+[0.009s] Invoking command in '/home/malacoda/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/more_interfaces
+[0.023s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.153s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.271s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.346s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.434s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.435s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.456s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.457s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.457s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.457s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.477s] -- Found PythonExtra: .so  
+[0.505s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.538s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.634s] -- Configuring done
+[0.652s] -- Generating done
+[0.654s] -- Build files have been written to: /home/malacoda/ros2_ws/build/more_interfaces
+[0.660s] Invoked command in '/home/malacoda/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/more_interfaces
+[0.662s] Invoking command in '/home/malacoda/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/more_interfaces -- -j32 -l32
+[0.697s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.698s] [35m[1mScanning dependencies of target more_interfaces__cpp[0m
+[0.706s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.844s] [  6%] Built target more_interfaces__cpp
+[0.845s] [35m[1mScanning dependencies of target more_interfaces__rosidl_generator_c[0m
+[0.851s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.851s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.852s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.854s] [ 18%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[0.887s] [ 21%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[0.909s] [ 21%] Built target more_interfaces__rosidl_generator_c
+[0.915s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.916s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.975s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[0.983s] [ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[0.989s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.998s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[1.000s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.008s] [ 36%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[1.033s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[1.041s] [ 39%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[1.049s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[1.056s] [ 42%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[1.061s] [ 45%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[1.077s] [ 48%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.088s] [ 48%] Built target more_interfaces__rosidl_typesupport_c
+[1.095s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.156s] [ 51%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[1.174s] [ 54%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.182s] [ 54%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.212s] [ 54%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.263s] [ 57%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.314s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.323s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.458s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.470s] [ 63%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[1.682s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.735s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.741s] [35m[1mScanning dependencies of target more_interfaces[0m
+[1.749s] [ 66%] Built target more_interfaces
+[1.758s] [35m[1mScanning dependencies of target more_interfaces__py[0m
+[1.759s] [35m[1mScanning dependencies of target publish_address_book[0m
+[1.765s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.782s] [ 72%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[1.980s] [ 72%] Built target more_interfaces__py
+[1.986s] [35m[1mScanning dependencies of target more_interfaces__python[0m
+[1.998s] [ 75%] [32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[2.058s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so[0m
+[2.080s] [ 78%] Built target more_interfaces__python
+[2.088s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.088s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.088s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[2.100s] [ 81%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.100s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.100s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.150s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.150s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.152s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.173s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[2.175s] [ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.188s] [ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.545s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[3.634s] [100%] Built target publish_address_book
+[3.645s] Invoked command in '/home/malacoda/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/more_interfaces -- -j32 -l32
+[3.696s] Invoking command in '/home/malacoda/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/more_interfaces
+[3.703s] -- Install configuration: ""
+[3.703s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[3.703s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces
+[3.703s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[3.703s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[3.703s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h
+[3.703s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h
+[3.704s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h
+[3.704s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c
+[3.704s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.704s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h
+[3.704s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[3.704s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[3.704s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[3.705s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[3.705s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces
+[3.705s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[3.705s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[3.705s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[3.705s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.705s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.706s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.706s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces
+[3.706s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[3.706s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[3.706s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps
+[3.706s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[3.706s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.707s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.707s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.707s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces
+[3.707s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[3.707s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[3.707s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[3.707s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c
+[3.707s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.707s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[3.708s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.708s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[3.708s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[3.708s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces
+[3.708s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[3.708s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[3.708s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp
+[3.708s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp
+[3.708s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp
+[3.708s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp
+[3.709s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces
+[3.709s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[3.709s] -- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[3.709s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[3.709s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp
+[3.709s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.709s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.709s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[3.709s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.709s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[3.709s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[3.710s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py
+[3.732s] Compiling '/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...
+[3.734s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg
+[3.734s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c
+[3.734s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py
+[3.734s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py
+[3.734s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.735s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.735s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.735s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.736s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.736s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.736s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so
+[3.736s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so" to ""
+[3.736s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[3.737s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[3.737s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[3.738s] -- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[3.738s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[3.738s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[3.738s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[3.738s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[3.738s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[3.738s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[3.739s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[3.739s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[3.739s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[3.739s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[3.739s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[3.739s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[3.739s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.740s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.741s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.742s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.742s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[3.742s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[3.742s] -- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[3.744s] Invoked command in '/home/malacoda/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/more_interfaces

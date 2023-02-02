@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/malacoda/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/more_interfaces -- -j32 -l32
+[0.037s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.169s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.303s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.304s]   By not providing "Findrosidl_tutorials_msgs.cmake" in CMAKE_MODULE_PATH
+[0.304s]   this project has asked CMake to find a package configuration file provided
+[0.304s]   by "rosidl_tutorials_msgs", but CMake did not find one.
+[0.304s] 
+[0.304s]   Could not find a package configuration file provided by
+[0.304s]   "rosidl_tutorials_msgs" with any of the following names:
+[0.304s] 
+[0.304s]     rosidl_tutorials_msgsConfig.cmake
+[0.304s]     rosidl_tutorials_msgs-config.cmake
+[0.304s] 
+[0.304s]   Add the installation prefix of "rosidl_tutorials_msgs" to CMAKE_PREFIX_PATH
+[0.304s]   or set "rosidl_tutorials_msgs_DIR" to a directory containing one of the
+[0.305s]   above files.  If "rosidl_tutorials_msgs" provides a separate development
+[0.305s]   package or SDK, be sure it has been installed.
+[0.305s] 
+[0.305s] 
+[0.305s] -- Configuring incomplete, errors occurred!
+[0.305s] See also "/home/malacoda/ros2_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[0.305s] See also "/home/malacoda/ros2_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+[0.306s] make: *** [Makefile:792: cmake_check_build_system] Error 1
+[0.308s] Invoked command in '/home/malacoda/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/more_interfaces -- -j32 -l32

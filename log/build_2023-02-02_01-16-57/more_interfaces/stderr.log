@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:23 (find_package):
+  By not providing "Findrosidl_tutorial_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "rosidl_tutorial_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosidl_tutorial_msgs" with any of the following names:
+
+    rosidl_tutorial_msgsConfig.cmake
+    rosidl_tutorial_msgs-config.cmake
+
+  Add the installation prefix of "rosidl_tutorial_msgs" to CMAKE_PREFIX_PATH
+  or set "rosidl_tutorial_msgs_DIR" to a directory containing one of the
+  above files.  If "rosidl_tutorial_msgs" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+make: *** [Makefile:792: cmake_check_build_system] Error 1

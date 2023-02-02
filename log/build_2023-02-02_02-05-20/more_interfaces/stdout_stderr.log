@@ -1,0 +1,67 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/malacoda/ros2_ws/build/more_interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35m[1mScanning dependencies of target more_interfaces__rosidl_generator_c[0m
+[  6%] Built target more_interfaces__cpp
+[  9%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.h:19[m[K,
+                 from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c:4[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/address_book__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.h: No such file or directory
+   22 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_generator_c.dir/build.make:92: CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/more_interfaces__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp:7[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:246: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp:12[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:556: CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp:4[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

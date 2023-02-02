@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32
+[0.032s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.160s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.313s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.400s] CMake Error at CMakeLists.txt:27 (add_executable):
+[0.400s]   add_executable cannot create target "talker" because another target with
+[0.400s]   the same name already exists.  The existing target is an executable created
+[0.400s]   in source directory "/home/malacoda/ros2_ws/src/cpp_pubsub".  See
+[0.400s]   documentation for policy CMP0002 for more details.
+[0.400s] 
+[0.400s] 
+[0.439s] -- Configuring incomplete, errors occurred!
+[0.439s] See also "/home/malacoda/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.439s] See also "/home/malacoda/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeError.log".
+[0.445s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.448s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32

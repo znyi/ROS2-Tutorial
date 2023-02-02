@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from more_interfaces/msg/AddressBook.msg
+// generated code does not contain a copyright notice
+
+
+module more_interfaces {
+  module msg {
+    module AddressBook_Constants {
+      const boolean FEMALE = TRUE;
+      const boolean MALE = FALSE;
+    };
+    @verbatim (language="comment", text=
+      " rosidl_tutorials_msgs/Contact[] address_book")
+    struct AddressBook {
+      string first_name;
+
+      string last_name;
+
+      boolean gender;
+
+      uint8 age;
+
+      string address;
+    };
+  };
+};

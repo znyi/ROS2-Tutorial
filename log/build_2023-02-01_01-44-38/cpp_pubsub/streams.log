@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32
+[0.050s] [35m[1mScanning dependencies of target talker[0m
+[0.065s] [ 50%] Built target listener
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.771s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[0.771s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[0.771s]    32 |     publisher_ = this->create_publisher<[01;31m[Kstd_msgs[m[K::msg::String>("topic", 10);
+[0.771s]       |                                         [01;31m[K^~~~~~~~[m[K
+[0.771s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[0.771s]    32 |     publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::String>[m[K("topic", 10);
+[0.771s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.772s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[0.772s]    32 |     publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10[01;31m[K)[m[K;
+[0.772s]       |                                                                           [01;31m[K^[m[K
+[0.772s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.772s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.772s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.772s]                  from [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[0.772s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[0.772s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[0.772s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.772s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.772s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.772s]    32 |     publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10[01;31m[K)[m[K;
+[0.772s]       |                                                                           [01;31m[K^[m[K
+[1.057s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.057s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[1.057s] make: *** [Makefile:141: all] Error 2
+[1.059s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32

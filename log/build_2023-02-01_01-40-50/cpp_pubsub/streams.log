@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32
+[0.054s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.057s] [ 75%] Built target listener
+[0.726s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:46:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[0.727s]    46 |   rclcpp::Publisher<[01;31m[Ktutorial_interfaces[m[K::msg::Num>::SharedPtr publisher_;
+[0.727s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.727s]       |                     [32m[Krcl_interfaces[m[K
+[0.727s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:46:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.727s]    46 |   rclcpp::Publisher<tutorial_interfaces::msg::Num[01;31m[K>[m[K::SharedPtr publisher_;
+[0.727s]       |                                                  [01;31m[K^[m[K
+[0.727s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:46:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.727s]    46 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::[01;31m[KSharedPtr[m[K publisher_;
+[0.727s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[0.727s]       |                                                              [32m[K;[m[K
+[0.727s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:46:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.727s]    46 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr [01;31m[Kpublisher_[m[K;
+[0.728s]       |                                                               [01;31m[K^~~~~~~~~~[m[K
+[0.728s]       |                                                               [32m[Krcl_publisher_t[m[K
+[0.729s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[0.729s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.729s]    32 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+[0.729s]       |     [01;31m[K^~~~~~~~~~[m[K
+[0.729s]       |     [32m[Krcl_publisher_t[m[K
+[0.737s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[0.737s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[KNum[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.737s]    40 |     auto message = std_msgs::msg::[01;31m[KNum[m[K();
+[0.737s]       |                                   [01;31m[K^~~[m[K
+[0.739s] [01m[K/home/malacoda/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.739s]    43 |     [01;31m[Kpublisher_[m[K->publish(message);
+[0.739s]       |     [01;31m[K^~~~~~~~~~[m[K
+[0.739s]       |     [32m[Krcl_publisher_t[m[K
+[1.249s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.250s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[1.250s] make: *** [Makefile:141: all] Error 2
+[1.252s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32

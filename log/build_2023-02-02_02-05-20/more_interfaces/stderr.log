@@ -1,0 +1,32 @@
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.h:19[m[K,
+                 from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c:4[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/address_book__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.h: No such file or directory
+   22 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_generator_c.dir/build.make:92: CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/more_interfaces__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp:7[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:246: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp:12[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:556: CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+In file included from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp:4[m[K:
+[01m[K/home/malacoda/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krosidl_tutorials_msgs/msg/detail/contact__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"rosidl_tutorials_msgs/msg/detail/contact__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

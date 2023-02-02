@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_pubsub
+[0.021s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.149s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.429s] -- Configuring done
+[0.438s] -- Generating done
+[0.439s] -- Build files have been written to: /home/malacoda/ros2_ws/build/cpp_pubsub
+[0.445s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_pubsub
+[0.447s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32
+[0.483s] [35m[1mScanning dependencies of target talker[0m
+[0.483s] [35m[1mScanning dependencies of target listener[0m
+[0.512s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.513s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.269s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[2.355s] [ 75%] Built target talker
+[3.248s] [100%] [32m[1mLinking CXX executable listener[0m
+[3.363s] [100%] Built target listener
+[3.374s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32
+[3.404s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_pubsub
+[3.412s] -- Install configuration: ""
+[3.412s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[3.413s] -- Set runtime path of "/home/malacoda/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[3.414s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[3.416s] -- Set runtime path of "/home/malacoda/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[3.416s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.416s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.416s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[3.416s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.417s] -- Installing: /home/malacoda/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.418s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_pubsub

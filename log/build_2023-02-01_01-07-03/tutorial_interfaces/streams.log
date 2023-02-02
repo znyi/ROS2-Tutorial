@@ -1,0 +1,265 @@
+[0.008s] Invoking command in '/home/malacoda/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/tutorial_interfaces
+[0.022s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.150s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.166s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.313s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.337s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.461s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.709s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.732s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.732s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.732s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.732s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.752s] -- Found PythonExtra: .so  
+[0.816s] -- Configuring done
+[0.845s] -- Generating done
+[0.846s] -- Build files have been written to: /home/malacoda/ros2_ws/build/tutorial_interfaces
+[0.851s] Invoked command in '/home/malacoda/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/tutorial_interfaces
+[0.853s] Invoking command in '/home/malacoda/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/tutorial_interfaces -- -j32 -l32
+[0.888s] [35m[1mScanning dependencies of target tutorial_interfaces__cpp[0m
+[0.888s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.897s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.077s] [  4%] Built target tutorial_interfaces__cpp
+[1.084s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.087s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.087s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[1.087s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.097s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[1.098s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[1.099s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[1.134s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[1.157s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[1.163s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.163s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.227s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[1.235s] [ 25%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.235s] [ 27%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.235s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[1.250s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.257s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[1.258s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[1.259s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[1.269s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.283s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.283s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[1.284s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[1.308s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[1.317s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.317s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.318s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[1.333s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[1.342s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[1.342s] [ 53%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[1.343s] [ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[1.344s] [ 57%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[1.365s] [ 59%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.371s] [ 59%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.390s] [ 59%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.447s] [ 61%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[1.473s] [ 63%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.474s] [ 63%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[1.511s] [ 63%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[1.551s] [ 65%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.610s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.620s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.801s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.819s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[1.820s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[1.821s] [ 74%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[2.036s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.090s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[2.100s] [35m[1mScanning dependencies of target tutorial_interfaces[0m
+[2.108s] [ 76%] Built target tutorial_interfaces
+[2.117s] [35m[1mScanning dependencies of target tutorial_interfaces__py[0m
+[2.128s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.450s] [ 78%] Built target tutorial_interfaces__py
+[2.457s] [35m[1mScanning dependencies of target tutorial_interfaces__python[0m
+[2.475s] [ 80%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[2.476s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[2.477s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[2.536s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so[0m
+[2.571s] [ 87%] Built target tutorial_interfaces__python
+[2.580s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[2.580s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.580s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.594s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.594s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.594s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.652s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.654s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.654s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.684s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[2.685s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.699s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.709s] Invoked command in '/home/malacoda/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/tutorial_interfaces -- -j32 -l32
+[2.782s] Invoking command in '/home/malacoda/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/tutorial_interfaces
+[2.790s] -- Install configuration: ""
+[2.790s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.h
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__functions.h
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__functions.c
+[2.791s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[2.792s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[2.793s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[2.793s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[2.793s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[2.793s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[2.793s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[2.793s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.794s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.794s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.794s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[2.794s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.794s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[2.794s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[2.794s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[2.794s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.794s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.795s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[2.795s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.795s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.795s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps
+[2.795s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[2.795s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.795s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.795s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[2.795s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[2.795s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps
+[2.796s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.796s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.796s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.796s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[2.796s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.796s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.796s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.c
+[2.796s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.796s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c
+[2.797s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[2.797s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.797s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[2.797s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[2.797s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[2.797s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[2.797s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[2.797s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.797s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[2.798s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[2.798s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[2.798s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.798s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.hpp
+[2.798s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.798s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[2.798s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp
+[2.799s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[2.799s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[2.799s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp
+[2.799s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[2.800s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.800s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp
+[2.800s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[2.800s] -- Up-to-date: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.800s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[2.800s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[2.800s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+[2.823s] Compiling '/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+[2.825s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg
+[2.825s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py
+[2.825s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py
+[2.825s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_sphere.py
+[2.825s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[2.825s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c
+[2.825s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv
+[2.826s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py
+[2.826s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[2.826s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[2.826s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.826s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.826s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.827s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.827s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.827s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.827s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[2.828s] -- Set runtime path of "/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[2.828s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[2.829s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[2.830s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[2.830s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+[2.830s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.830s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.830s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.830s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[2.830s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.831s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.832s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.832s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.832s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.832s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.832s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[2.832s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[2.832s] -- Installing: /home/malacoda/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[2.834s] Invoked command in '/home/malacoda/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/tutorial_interfaces

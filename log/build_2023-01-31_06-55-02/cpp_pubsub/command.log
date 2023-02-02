@@ -1,0 +1,6 @@
+Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_pubsub
+Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_pubsub
+Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32
+Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_pubsub -- -j32 -l32
+Invoking command in '/home/malacoda/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_pubsub
+Invoked command in '/home/malacoda/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_pubsub

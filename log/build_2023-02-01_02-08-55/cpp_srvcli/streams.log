@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_srvcli -- -j32 -l32
+[0.048s] [35m[1mScanning dependencies of target client[0m
+[0.065s] [ 50%] Built target server
+[0.065s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o[0m
+[1.383s] [100%] [32m[1mLinking CXX executable client[0m
+[1.463s] [100%] Built target client
+[1.473s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_srvcli -- -j32 -l32
+[1.506s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_srvcli
+[1.514s] -- Install configuration: ""
+[1.514s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.514s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.515s] -- Set runtime path of "/home/malacoda/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[1.515s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.515s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.516s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.516s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.517s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.517s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.517s] -- Up-to-date: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.518s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_srvcli

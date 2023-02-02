@@ -1,0 +1,46 @@
+[0.008s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_srvcli
+[0.022s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.149s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.174s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.298s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.384s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.489s] -- Configuring done
+[0.500s] -- Generating done
+[0.501s] -- Build files have been written to: /home/malacoda/ros2_ws/build/cpp_srvcli
+[0.506s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/cpp_srvcli
+[0.509s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_srvcli -- -j32 -l32
+[0.540s] [35m[1mScanning dependencies of target client[0m
+[0.540s] [35m[1mScanning dependencies of target server[0m
+[0.565s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.568s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.738s] [ 75%] [32m[1mLinking CXX executable server[0m
+[1.809s] [ 75%] Built target server
+[1.908s] [100%] [32m[1mLinking CXX executable client[0m
+[1.989s] [100%] Built target client
+[2.000s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_srvcli -- -j32 -l32
+[2.030s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_srvcli
+[2.038s] -- Install configuration: ""
+[2.038s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.038s] -- Set runtime path of "/home/malacoda/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[2.039s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.039s] -- Set runtime path of "/home/malacoda/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[2.040s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.040s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.040s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.040s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.040s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.040s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.040s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.041s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.041s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.041s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.041s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.041s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.041s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.041s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.042s] -- Installing: /home/malacoda/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.043s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/cpp_srvcli
