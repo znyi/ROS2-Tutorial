@@ -1,0 +1,41 @@
+[0.354s] Invoking command in '/home/malacoda/ros2_ws/src/py_srvcli': PYTHONPATH=/home/malacoda/ros2_ws/build/py_srvcli/prefix_override:/home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/malacoda/ros2_ws/build/py_srvcli/build install --record /home/malacoda/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed
+[0.480s] running egg_info
+[0.480s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.480s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.481s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.481s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.481s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.481s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.481s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.500s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.501s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.501s] running build
+[0.501s] running build_py
+[0.501s] creating /home/malacoda/ros2_ws/build/py_srvcli/build
+[0.501s] creating /home/malacoda/ros2_ws/build/py_srvcli/build/lib
+[0.501s] creating /home/malacoda/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.501s] copying py_srvcli/__init__.py -> /home/malacoda/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.501s] copying py_srvcli/service_member_function.py -> /home/malacoda/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.501s] copying py_srvcli/client_member_function.py -> /home/malacoda/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.501s] running install
+[0.501s] running install_lib
+[0.502s] creating /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.502s] copying /home/malacoda/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.502s] copying /home/malacoda/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.502s] copying /home/malacoda/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.502s] byte-compiling /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc
+[0.503s] byte-compiling /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[0.503s] byte-compiling /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[0.503s] running install_data
+[0.503s] creating /home/malacoda/ros2_ws/install/py_srvcli/share/ament_index
+[0.503s] creating /home/malacoda/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.504s] creating /home/malacoda/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.504s] copying resource/py_srvcli -> /home/malacoda/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.504s] copying package.xml -> /home/malacoda/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.504s] running install_egg_info
+[0.504s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[0.505s] running install_scripts
+[0.514s] Installing client script to /home/malacoda/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.514s] Installing service script to /home/malacoda/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.514s] writing list of installed files to '/home/malacoda/ros2_ws/build/py_srvcli/install.log'
+[0.525s] Invoked command in '/home/malacoda/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/malacoda/ros2_ws/build/py_srvcli/prefix_override:/home/malacoda/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/malacoda/ros2_ws/build/py_srvcli/build install --record /home/malacoda/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed

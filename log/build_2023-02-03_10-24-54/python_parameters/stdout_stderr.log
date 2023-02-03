@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+running build
+running build_py
+copying python_parameters/python_parameters_node.py -> /home/malacoda/ros2_ws/build/python_parameters/build/lib/python_parameters
+running install
+running install_lib
+copying /home/malacoda/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/malacoda/ros2_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters
+byte-compiling /home/malacoda/ros2_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-38.pyc
+running install_data
+copying launch/python_parameters_launch.py -> /home/malacoda/ros2_ws/install/python_parameters/share/python_parameters
+running install_egg_info
+removing '/home/malacoda/ros2_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/python_parameters/python_parameters.egg-info to /home/malacoda/ros2_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info
+running install_scripts
+Installing py_minimal_param_node script to /home/malacoda/ros2_ws/install/python_parameters/lib/python_parameters
+writing list of installed files to '/home/malacoda/ros2_ws/build/python_parameters/install.log'
