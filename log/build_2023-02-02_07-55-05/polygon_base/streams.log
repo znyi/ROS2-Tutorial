@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/malacoda/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/polygon_base -- -j32 -l32
+[0.034s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.164s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[0.229s] -- Configuring done
+[0.232s] -- Generating done
+[0.233s] -- Build files have been written to: /home/malacoda/ros2_ws/build/polygon_base
+[0.268s] [100%] Built target area_node
+[0.277s] Invoked command in '/home/malacoda/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/polygon_base -- -j32 -l32
+[0.306s] Invoking command in '/home/malacoda/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/polygon_base
+[0.313s] -- Install configuration: ""
+[0.313s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/include
+[0.313s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/include/polygon_base
+[0.313s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[0.313s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[0.313s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[0.313s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[0.313s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[0.313s] -- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[0.314s] -- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[0.314s] -- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[0.314s] -- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[0.314s] -- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[0.316s] Invoked command in '/home/malacoda/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/polygon_base

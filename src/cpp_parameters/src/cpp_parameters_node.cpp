@@ -12,10 +12,18 @@ public:
   MinimalParam()
   : Node("minimal_param_node")
   {
-    this->declare_parameter("my_parameter", "world");
+
+    //optional- parameter descriptor
+    //do this to see the type and description of parameter
+    //ros2 param describe /minimal_param_node my_parameter
+    auto param_desc = rcl_interfaces::msg::ParameterDescriptor{};
+    param_desc.description = "This parameter is mine!";
+
+    //this->declare_parameter("my_parameter", "world"); //create parameter "my_parameter" with default value "world"
+    this->declare_parameter("my_parameter", "world", param_desc);
 
     timer_ = this->create_wall_timer(
-      1000ms, std::bind(&MinimalParam::timer_callback, this));
+      1000ms, std::bind(&MinimalParam::timer_callback, this)); //once a second
   }
 
   void timer_callback()
@@ -25,7 +33,7 @@ public:
 
     RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
 
-    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};
+    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")}; //set the my_parameter back to default string 
     this->set_parameters(all_new_parameters);
   }
 

@@ -1,0 +1,28 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/malacoda/ros2_ws/build/polygon_base
+[100%] Built target area_node
+-- Install configuration: ""
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/include
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/include/polygon_base
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+-- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+-- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+-- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+-- Installing: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+-- Up-to-date: /home/malacoda/ros2_ws/install/polygon_base/share/polygon_base/package.xml

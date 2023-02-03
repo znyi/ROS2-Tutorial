@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.000475] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000529] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001021] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001061] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001128] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001162] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001195] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001273] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.009709] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.010447] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.011213] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malacoda/ros2_ws/build/more_interfaces', '--', '-j32', '-l32'], 'cwd': '/home/malacoda/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malacoda'), ('SSH_CLIENT', '192.168.0.60 50611 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malacoda/ros2_ws/src/install/more_interfaces/lib:/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:/home/malacoda/ros2_ws/install/turtlesim/lib:/home/malacoda/ros2_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/malacoda'), ('OLDPWD', '/home/malacoda/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-07c45bed-0b01-4fcc-97dd-b52a44be3829.sock'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/malacoda/ros2_ws/install:/home/malacoda/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'malacoda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '560'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-f772902bb8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/malacoda/ros2_ws/install/cpp_parameters:/home/malacoda/ros2_ws/src/install/my_package:/home/malacoda/ros2_ws/src/install/more_interfaces:/home/malacoda/ros2_ws/install/cpp_srvcli:/home/malacoda/ros2_ws/install/cpp_pubsub:/home/malacoda/ros2_ws/install/tutorial_interfaces:/home/malacoda/ros2_ws/install/turtlesim:/home/malacoda/ros2_ws/install/more_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/malacoda/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.60 50611 192.168.0.17 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malacoda/ros2_ws/src/install/my_package/lib/python3.8/site-packages:/home/malacoda/ros2_ws/src/install/more_interfaces/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/malacoda/ros2_ws/install/cpp_parameters:/home/malacoda/ros2_ws/src/install/more_interfaces:/home/malacoda/ros2_ws/install/cpp_srvcli:/home/malacoda/ros2_ws/install/cpp_pubsub:/home/malacoda/ros2_ws/install/tutorial_interfaces:/home/malacoda/ros2_ws/install/turtlesim:/home/malacoda/ros2_ws/install/more_interfaces:/home/malacoda/ros2_ws/src/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[0.040045] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.055644] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.055795] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099745] (-) TimerEvent: {}
+[0.166149] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.168970] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.172764] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199840] (-) TimerEvent: {}
+[0.280962] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299910] (-) TimerEvent: {}
+[0.313525] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.392065] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.399973] (-) TimerEvent: {}
+[0.477857] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.481657] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499959] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.500117] (-) TimerEvent: {}
+[0.500244] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.520073] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.520184] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.520261] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.532471] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.560664] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.561599] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600189] (-) TimerEvent: {}
+[0.648714] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.664698] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.666518] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/malacoda/ros2_ws/build/more_interfaces\n'}
+[0.689637] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.696749] (more_interfaces) StdoutLine: {'line': b'[  3%] Built target more_interfaces__cpp\n'}
+[0.700261] (-) TimerEvent: {}
+[0.700395] (more_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[0.704989] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.706554] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.706635] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.713041] (more_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[0.715034] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[0.715118] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[0.733769] (more_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[0.754962] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.760999] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.761067] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.767700] (more_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[0.768474] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[0.787890] (more_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[0.790159] (more_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.800323] (-) TimerEvent: {}
+[0.805573] (more_interfaces) StdoutLine: {'line': b'[ 36%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.814821] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.885516] (more_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.888757] (more_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[0.900393] (-) TimerEvent: {}
+[0.915669] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.927524] (more_interfaces) StdoutLine: {'line': b'[ 51%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.970295] (more_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.000462] (-) TimerEvent: {}
+[1.023495] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.032459] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.042206] (more_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[1.100528] (-) TimerEvent: {}
+[1.200704] (-) TimerEvent: {}
+[1.249133] (more_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.300804] (-) TimerEvent: {}
+[1.305379] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.320867] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[1.331784] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publish_address_book\x1b[0m\n'}
+[1.339462] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces__py\n'}
+[1.346946] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__python\x1b[0m\n'}
+[1.353163] (more_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[1.358650] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[1.400878] (-) TimerEvent: {}
+[1.415513] (more_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so\x1b[0m\n'}
+[1.444541] (more_interfaces) StdoutLine: {'line': b'[ 78%] Built target more_interfaces__python\n'}
+[1.452271] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.452407] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.454997] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.461751] (more_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.462464] (more_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.464893] (more_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.500960] (-) TimerEvent: {}
+[1.513161] (more_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.513481] (more_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.515488] (more_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.536115] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.538801] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.554683] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.601021] (-) TimerEvent: {}
+[1.701208] (-) TimerEvent: {}
+[1.801426] (-) TimerEvent: {}
+[1.901646] (-) TimerEvent: {}
+[2.001869] (-) TimerEvent: {}
+[2.102090] (-) TimerEvent: {}
+[2.202308] (-) TimerEvent: {}
+[2.302524] (-) TimerEvent: {}
+[2.402742] (-) TimerEvent: {}
+[2.502963] (-) TimerEvent: {}
+[2.603176] (-) TimerEvent: {}
+[2.703388] (-) TimerEvent: {}
+[2.803607] (-) TimerEvent: {}
+[2.903826] (-) TimerEvent: {}
+[3.004033] (-) TimerEvent: {}
+[3.104240] (-) TimerEvent: {}
+[3.150826] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[3.204309] (-) TimerEvent: {}
+[3.243308] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[3.253846] (more_interfaces) CommandEnded: {'returncode': 0}
+[3.300554] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[3.304452] (-) TimerEvent: {}
+[3.310836] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/malacoda/ros2_ws/build/more_interfaces'], 'cwd': '/home/malacoda/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'malacoda'), ('SSH_CLIENT', '192.168.0.60 50611 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/malacoda/ros2_ws/src/install/more_interfaces/lib:/home/malacoda/ros2_ws/install/tutorial_interfaces/lib:/home/malacoda/ros2_ws/install/turtlesim/lib:/home/malacoda/ros2_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/malacoda'), ('OLDPWD', '/home/malacoda/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-07c45bed-0b01-4fcc-97dd-b52a44be3829.sock'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/malacoda/ros2_ws/install:/home/malacoda/ros2_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'malacoda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '560'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/malacoda/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-f772902bb8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/malacoda/ros2_ws/install/cpp_parameters:/home/malacoda/ros2_ws/src/install/my_package:/home/malacoda/ros2_ws/src/install/more_interfaces:/home/malacoda/ros2_ws/install/cpp_srvcli:/home/malacoda/ros2_ws/install/cpp_pubsub:/home/malacoda/ros2_ws/install/tutorial_interfaces:/home/malacoda/ros2_ws/install/turtlesim:/home/malacoda/ros2_ws/install/more_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/malacoda/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.60 50611 192.168.0.17 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/malacoda/ros2_ws/src/install/my_package/lib/python3.8/site-packages:/home/malacoda/ros2_ws/src/install/more_interfaces/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/malacoda/ros2_ws/install/cpp_parameters:/home/malacoda/ros2_ws/src/install/more_interfaces:/home/malacoda/ros2_ws/install/cpp_srvcli:/home/malacoda/ros2_ws/install/cpp_pubsub:/home/malacoda/ros2_ws/install/tutorial_interfaces:/home/malacoda/ros2_ws/install/turtlesim:/home/malacoda/ros2_ws/install/more_interfaces:/home/malacoda/ros2_ws/src/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[3.317011] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.317205] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[3.317383] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[3.317480] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[3.317590] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[3.317679] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[3.317792] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h\n'}
+[3.317881] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h\n'}
+[3.317975] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c\n'}
+[3.318096] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.318252] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h\n'}
+[3.318340] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[3.318464] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[3.318554] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[3.318635] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.318766] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[3.318924] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[3.319016] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[3.319120] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[3.319208] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.319290] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.319475] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.319629] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[3.319747] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[3.319845] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[3.319938] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps\n'}
+[3.320055] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.320177] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.320276] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.320368] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.320484] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[3.320628] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[3.320770] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[3.320871] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[3.320978] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[3.321070] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.321159] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.321258] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.321349] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[3.321449] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.321536] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[3.321627] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[3.321715] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[3.321830] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[3.321934] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[3.322039] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[3.322129] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp\n'}
+[3.322229] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[3.322319] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[3.322407] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[3.322493] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.322581] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[3.322679] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.322768] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.322855] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.322943] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.323042] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[3.323133] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[3.323222] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py\n'}
+[3.344685] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...\n"}
+[3.346534] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg\n'}
+[3.346661] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[3.346751] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py\n'}
+[3.346851] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py\n'}
+[3.346939] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.347159] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.347420] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.347744] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.347982] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.348300] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.348447] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so\n'}
+[3.348715] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so" to ""\n'}
+[3.348818] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[3.348925] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[3.349026] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[3.349893] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/malacoda/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[3.349993] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[3.350091] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[3.350192] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[3.350293] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.350400] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[3.350521] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[3.350640] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[3.350749] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[3.350848] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[3.350944] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[3.351040] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[3.351128] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[3.351231] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.351319] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.351469] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.351570] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.351730] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.351833] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.351993] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.352174] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.352282] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.352440] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.352548] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.352665] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.352780] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.352917] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.353031] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.353120] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.353210] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.353301] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.353389] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[3.353481] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[3.353570] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/malacoda/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[3.354366] (more_interfaces) CommandEnded: {'returncode': 0}
+[3.404529] (-) TimerEvent: {}
+[3.432361] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[3.432854] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+CMake Error at CMakeLists.txt:45 (add_library):
+  add_library cannot create target "polygon_plugins" because another target
+  with the same name already exists.  The existing target is a shared library
+  created in source directory "/home/malacoda/ros2_ws/src/polygon_plugins".
+  See documentation for policy CMP0002 for more details.
+
+

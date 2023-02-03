@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/home/malacoda/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_parameters -- -j32 -l32
+[0.034s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.162s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.397s] CMake Error at CMakeLists.txt:32 (install):
+[0.397s]   install DIRECTORY given unknown argument "cpp_parameters".
+[0.397s] 
+[0.397s] 
+[0.437s] -- Configuring incomplete, errors occurred!
+[0.437s] See also "/home/malacoda/ros2_ws/build/cpp_parameters/CMakeFiles/CMakeOutput.log".
+[0.437s] See also "/home/malacoda/ros2_ws/build/cpp_parameters/CMakeFiles/CMakeError.log".
+[0.442s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.444s] Invoked command in '/home/malacoda/ros2_ws/build/cpp_parameters' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/cpp_parameters -- -j32 -l32

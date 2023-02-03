@@ -1,0 +1,6 @@
+Invoking command in '/home/malacoda/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/polygon_base
+Invoked command in '/home/malacoda/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/malacoda/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/malacoda/ros2_ws/install/polygon_base
+Invoking command in '/home/malacoda/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/polygon_base -- -j32 -l32
+Invoked command in '/home/malacoda/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/malacoda/ros2_ws/build/polygon_base -- -j32 -l32
+Invoking command in '/home/malacoda/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/polygon_base
+Invoked command in '/home/malacoda/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/malacoda/ros2_ws/build/polygon_base
